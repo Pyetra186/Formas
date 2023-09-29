@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 16px;
+    gap: 16px;
+}
+
+.item{
+    height: 150px;
+    width: 80%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 32px;
+}
+.texto{
+    color: white;
+    font-size: 64px;
+}
+
+.forma{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.vermelho{
+    background-color: blueviolet;
+}
+
+.circulo{
+    border-radius: 50%;
+}
+
+.dog{
+    background-image: url(./dog.webp);
+    background-size: cover;
+}
+.pcirculo{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+
+}
+.giro{
+    transform: rotate(360deg);
+}
+.lado{
+    transform: translateX(100px);
+   
+}
+.cores{
+    background-image: linear-gradient(to right, rgb(255, 0, 200), rgb(246, 255, 0));
+}
+.gif{
+background-image: url(./backgroud_gif.gif);
+background-size: cover; 
+
+}
+
+
+
+  
+
+
